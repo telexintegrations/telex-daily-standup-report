@@ -16,7 +16,7 @@ async def get_integration_json(request: Request):
       },
       "descriptions": {
         "app_name": "Daily Standup Report",
-        "app_description": "This Telex integration sends a scheduled reminder to a channel, prompting team members to submit their daily standup reports.",
+        "app_description": "Schedule automated daily standup reminders in your Telex channel.",
         "app_logo": "https://static.thenounproject.com/png/1259527-512.png",
         "app_url": base_url,
         "background_color": "#fff"

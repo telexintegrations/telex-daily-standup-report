@@ -7,7 +7,7 @@ This project provides a Telex integration that sends scheduled reminders to a ch
 ## Screenshots
 
 - [Daily Standup Report on Telex Channel](https://imgur.com/a/6cPT5oe)
-- [Description of Telex Daily Standup Report Integration](https://imgur.com/a/6cPT5oe)
+- [Description of Telex Daily Standup Report Integration](https://imgur.com/a/eBWMrcE)
 
 ## Features
 
@@ -103,7 +103,7 @@ The following settings are configurable via the integration.json endpoint:
 - `Reminder Message`: The message to be sent in the reminder.
 - `Mention Type`: The mention type to use (@channel or @here).
 
-[Screenshot of Daily Standup Report Integration Settings on Telex App](https://imgur.com/a/6cPT5oe)
+[Screenshot of Daily Standup Report Integration Settings on Telex App](https://imgur.com/a/A2jE386)
 
 ## Tick Payload Schema
 
