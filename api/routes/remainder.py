@@ -34,7 +34,7 @@ async def get_integration_json(request: Request):
           "label": "interval",
           "type": "text",
           "required": True,
-          "default": "0 9 * * 1-6"
+          "default": "*/5 * * * *"
         },
         {
           "label": "Reminder Message",
@@ -54,7 +54,7 @@ async def get_integration_json(request: Request):
         }
       ],
       "target_url": "",
-      "tick_url": f"{base_url}/tick"
+      "tick_url": f"{base_url}/api/v1/tick"
     }
   }
 
