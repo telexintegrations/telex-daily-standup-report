@@ -34,7 +34,7 @@ async def get_integration_json(request: Request):
           "label": "interval",
           "type": "text",
           "required": True,
-          "default": "*/5 * * * *"
+          "default": "0 9 * * 1-6"
         },
         {
           "label": "Reminder Message",
